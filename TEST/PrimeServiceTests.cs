@@ -27,7 +27,7 @@ namespace TEST
         [InlineData(0)]
         [InlineData(1)]
         [InlineData(4)]
-        [InlineData(5)]
+       
         public void NonPrimes_should_return_false(int n)
         {
             Assert.False(IsPrime(n));
