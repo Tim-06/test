@@ -34,5 +34,9 @@ namespace TEST
             IsPrime(n).Should().BeFalse();
         }
 
+        [Fact]
+        public void Demo_fail() => Assert.True(false);
+
+
     }
 }
